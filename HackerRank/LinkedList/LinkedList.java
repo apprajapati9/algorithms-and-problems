@@ -1,3 +1,5 @@
+package HackerRank.LinkedList;
+
 
 import java.util.NoSuchElementException;
 
