@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package HackerRank;
+package HackerRank.HackerRank_Algorithms_Warmup;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -32,6 +32,10 @@ Sample Input
 Sample Output
 
 10 14
+
+for problem detail description : Package -> problemDetailsPdf --> mini-max-sum.pdf
+
+
  */
 public class MinMax {
      public static void main(String[] args) {

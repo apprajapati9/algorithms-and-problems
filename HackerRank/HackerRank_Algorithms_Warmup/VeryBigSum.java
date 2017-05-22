@@ -5,6 +5,8 @@
  */
 package HackerRank.HackerRank_Algorithms_Warmup;
 
+import java.util.Scanner;
+
 /**
  *
  * @author apprajapati
@@ -37,8 +39,20 @@ Note:
 The range of the 32-bit integer is .
 When we add several integer values, the resulting sum might exceed the above range. You might need to use long long int in C/C++ or long data type in Java to store such sums.
 
-*/
-
+ */
 public class VeryBigSum {
-    
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner in = new Scanner(System.in);
+
+        int numbersValue = in.nextInt();
+        long sum = 0;
+
+        for (int i = 0; i < numbersValue; i++) {
+
+            sum = sum + in.nextInt();
+        }
+        System.out.println(sum);
+    }
 }
