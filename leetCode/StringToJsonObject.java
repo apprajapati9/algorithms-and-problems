@@ -10,11 +10,12 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
 import com.google.gson.JsonSyntaxException;
 import com.google.gson.stream.JsonReader;
-import jdk.nashorn.internal.parser.JSONParser;
 
 /**
  *
  * @author apprajapati
+import com.google.gson.JsonElement;
+import com.google.gson.JsonParser;
  */
 public class StringToJsonObject {
 
@@ -33,11 +34,9 @@ public class StringToJsonObject {
     }
 
     public class JsonObject {
-
         String id;
         String name;
         String salary;
-
     }
 
 }

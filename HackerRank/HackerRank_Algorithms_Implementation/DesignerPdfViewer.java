@@ -3,7 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package HackerRank.HackerRank_Algorithms_Warmup.HackerRank_Algorithms_Implementation;
+package HackerRank.HackerRank_Algorithms_Implementation;
+
 
 import java.util.Arrays;
 import java.util.Scanner;
