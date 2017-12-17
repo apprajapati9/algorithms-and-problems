@@ -11,4 +11,12 @@ package AlgorithmBookBySedgewick;
  */
 public class Common {
     
+	public static Common mCommonInstance; 
+	
+	public static Common getInstance() {
+		if( mCommonInstance == null) {
+			return new Common();
+		}else
+			return mCommonInstance;
+	}
 }
